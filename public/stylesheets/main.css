@@ -1,0 +1,12 @@
+/* body{
+    background-color: purple;
+} */
+
+.bg-light {
+    padding:20px; 
+    margin-top: 20px;
+}
+
+#delete-form{
+    display: inline;
+}
