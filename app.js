@@ -22,7 +22,7 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
-mongoose.connect("mongodb+srv://amir:05430543Aa@@@cluster0.gbjbz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://amir:05430543@cluster0.gbjbz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 app.use(express.static(__dirname + "/public"));
 
